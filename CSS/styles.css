@@ -1,0 +1,80 @@
+html {
+  padding-top: 13px;
+}
+
+body {
+  background-color: #424549;
+}
+
+.gameScrollMenu {
+  overflow: auto;
+  white-space: nowrap;
+  overflow-x: scroll;
+  height: 520px;
+}
+
+::-webkit-scrollbar{
+  height: 20px;
+  width: 4px;
+  background: gray;
+}
+
+::-webkit-scrollbar-thumb:horizontal{
+  background: rgb(255, 255, 255);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-button:horizontal:increment {
+  width: 25px;
+  background: rgb(255, 255, 255);
+}
+
+::-webkit-scrollbar-button:horizontal:decrement {
+  width: 25px;
+  background: rgb(255, 255, 255);
+  background-image: url(https://dl.dropboxusercontent.com/u/55165267/icon4.png);
+}
+
+.gameItem {
+  display: inline-block;
+  text-align: center;
+  padding-top: 210px;
+  height: 495px;
+  width: 1130px;
+  background-image: url("../images/CoinClickerBackground.jpg");
+  background-size: 1130px 495px;
+}
+
+.Item2 {
+  display: inline-block;
+  text-align: center;
+  padding-top: 210px;
+  height: 495px;
+  width: 1130px;
+  background-image: url("../images/CoinCaptureBackground.jpg");
+  background-size: 1130px 495px;
+}
+
+.Item3 {
+  display: inline-block;
+  text-align: center;
+  padding-top: 210px;
+  height: 495px;
+  width: 1130px;
+  background-color: rgb(218, 216, 146);
+  background-size: auto;
+}
+
+.logoImage {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-size: 40px 40px;
+  margin-right: 10px;
+  margin-bottom: -10px;
+  background-image: url("../images/logo.jpg");
+}
+
+.coinButton {
+  margin-top: 190px;
+}
