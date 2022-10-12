@@ -24,4 +24,7 @@ yarn-error.log*
 
 .vercel
 .next
-Coinverse(Project Source Code).zip
+
+package-lock.json
+ethereum/deploy.js
+ethereum/web3.js
